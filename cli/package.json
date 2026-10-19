@@ -1,0 +1,31 @@
+{
+  "name": "appshield-mcp",
+  "version": "1.0.0",
+  "description": "Deterministic Apple PrivacyInfo.xcprivacy & Google Play Data Safety compliance CLI and MCP tool for React Native, Expo, Flutter, and Native apps.",
+  "type": "module",
+  "main": "index.mjs",
+  "bin": {
+    "appshield-mcp": "index.mjs"
+  },
+  "files": [
+    "index.mjs",
+    "README.md"
+  ],
+  "keywords": [
+    "mcp",
+    "apple",
+    "privacy-manifest",
+    "xcprivacy",
+    "google-play",
+    "data-safety",
+    "react-native",
+    "expo",
+    "flutter",
+    "ios",
+    "android"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "license": "MIT"
+}

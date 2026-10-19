@@ -1,0 +1,7 @@
+plugins {
+    id 'com.android.application'
+}
+
+dependencies {
+    implementation 'com.facebook.android:facebook-android-sdk:17.0.0'
+}

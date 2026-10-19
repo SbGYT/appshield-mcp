@@ -1,0 +1,8 @@
+name = "appshield-mcp"
+main = "src/index.ts"
+compatibility_date = "2026-10-01"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "appshield-db"
+database_id = "40fc38fb-7d8d-4c7e-aba5-732e4b843a7d"

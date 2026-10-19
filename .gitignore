@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+cli/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Cloudflare Wrangler & Local D1 SQLite Databases
+.wrangler/
+.dev.vars
+.dev.vars.*
+*.sqlite
+*.sqlite3
+*.db
+*.db-shm
+*.db-wal
+
+# Environment & Secrets
+.env
+.env.*
+!.env.example
+
+# Build & TypeScript Outputs
+dist/
+build/
+*.tsbuildinfo
+
+# OS & Editor Files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.agent/
+New Text Document.txt
+*.swp
+*.swo
+

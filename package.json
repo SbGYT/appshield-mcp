@@ -1,0 +1,36 @@
+{
+  "name": "appshield-mcp",
+  "version": "2.0.0",
+  "main": "src/index.ts",
+  "bin": {
+    "appshield-mcp": "./cli/index.mjs"
+  },
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "audit": "node cli/index.mjs audit",
+    "generate": "node cli/index.mjs generate"
+  },
+  "keywords": [
+    "mcp",
+    "apple-privacy-manifest",
+    "google-play-data-safety"
+  ],
+  "author": "",
+  "license": "ISC",
+  "description": "AppShield Mobile Privacy & Store Compliance MCP Server + CLI",
+  "dependencies": {
+    "hono": "^4.13.13",
+    "zod": "^4.6.7"
+  },
+  "peerDependencies": {
+    "@google/generative-ai": "*",
+    "@sentry/react-native": "*",
+    "expo-location": "*"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20260702.1",
+    "typescript": "^7.0.2",
+    "wrangler": "^4.86.0"
+  }
+}

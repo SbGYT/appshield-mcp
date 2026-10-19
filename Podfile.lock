@@ -1,0 +1,12 @@
+PODS:
+  - Alamofire (5.9.1)
+  - AppsFlyerFramework (6.14.0)
+  - GoogleSignIn (7.1.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - AppsFlyerFramework
+  - GoogleSignIn
+
+PODFILE CHECKSUM: a1b2c3d4e5f60718293a4b5c6d7e8f90
+COCOAPODS: 1.15.2
